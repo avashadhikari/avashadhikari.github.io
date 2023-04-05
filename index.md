@@ -5,68 +5,36 @@ tagline: Easy websites with GitHub Pages
 description: Minimal tutorial on making a simple website with GitHub Pages
 ---
 
-[Github Pages](https://pages.github.com) provide a simple way to make a
-website using
-[Markdown](https://daringfireball.net/projects/markdown/) and
-[git](https://git-scm.com).
+👋 Hi, I'm Avash Adhikari <br>
+Nice to meet you!
 
-For me, the painful aspects of making a website are
 
-- Working with html and css
-- Finding a hosting site
-- Transferring stuff to the hosting site
+#### Education
+- [UC Berkeley](https://www.berkeley.edu/) [2021 - 2023]
+  - Master of Information Management and Systems
+- [National Institute of Technology, Allahabad](https://mnnit.ac.in) [2013 - 2017]
+  - Bacher of Technology in Computer Science and Engineering
 
-With [GitHub Pages](https://pages.github.com), you just write things in
-[Markdown](https://daringfireball.net/projects/markdown/),
-[GitHub](https://github.com) hosts the site for you, and you just push
-material to your GitHub repository with `git add`, `git commit`, and
-`git push`.
+#### Work Experience
+- [Cruise](getcruise.com) [May 2022 - Aug 2022]
+  - Site Reliability Engineering
+    - Developed a data ingestion workflow for Remote Assistance team that sources data from backend services, streams it into BigQuery and created BI dashboards on Looker to help make reactive/proactive decisions based on this data to avoid advisor unavailability situations.
+    - Configured ExternalDNS to use the Istio Gateway for Remote Assistance frontend services, allowing developers to spin up integration test environments on-the-fly with custom test domains tied to higher environments.
 
-If you love [git](https://git-scm.com/) and
-[GitHub](https://github.com), you'll love
-[GitHub Pages](https://pages.github.com), too.
+- [Fidelity Investments](https://www.fidelity.com/) [Jul 2017 - Jul 2021]
+  - Lead Software Engineer
+    - Led the architecture redesign, implementation, feature upgrades and maintenance for Fidelity’s Fund Information Platform, which serves 100M+ data requests per month for millions of customers.
+    - Led efforts to rewrite legacy code (150K+ lines of Java, JSP and Javascript) from a monolithic application to microservices written on Java for backend with Node Express serving Angular for frontend.
+    - Proposed and prototyped a proof-of-concept to shift to open-source frameworks from proprietary licensed soft- ware frameworks, bringing the licensing cost down to 0 upon successful implementation of the idea.
+    - Redesigned and rewrote the Extract, Transform, Load (ETL) solutions to decrease daily batch processing time from 1.5 hours to 12 minutes, significantly decreasing chances of Service Level Agreement breaches.
+    - Set up Chaos Engineering on the AWS infrastructure using Gremlin to test and quantify failure scenarios and failover mechanisms. Decreased API error rates by 30% by discovering architecture bottlenecks and fixing them.
+    - Mentored junior developers and interns in the team for technical directions and requirement specifications.
+  - Software Engineer
+    - Developed multiple applications as a full-stack developer rewriting the applications from legacy .NET applica- tions to responsive apps using Java, Node Express, Angular and Oracle PL/SQL.
+    - Spearheaded the cloud-migration strategy to align with the enterprise goals to move out of physical data centers.
+    - Built the product infrastructure with AWS Cloudformation and built CI/CD pipelines to automate deployment
+    of containerized applications, databases (PostgreSQL) and Redis cache.
+    - Decreased application infrastructure costs by 60% by setting up autoscaling on the ECS clusters.
+    - Led a business-unit wide initiative to adopt modernized CI/CD pipelines. Rebuilt 150+ pipelines that helped
+    teams speed up their time-to-market and decrease reliance on Ops teams that exclusively handle legacy products.
 
-The sites use [Jekyll](https://jekyllrb.com/), a
-[ruby](https://www.ruby-lang.org/en/) [gem](https://rubygems.org/), to
-convert Markdown files to html, and this part is done
-automatically when you push the materials to the `gh-pages` branch
-of a GitHub repository.
-
-The [GitHub](https://pages.github.com) and
-[Jekyll](https://jekyllrb.com) documentation is great, but I thought it
-would be useful to have a minimal tutorial, for those who just want to
-get going immediately with a simple site. To some readers, what GitHub
-has might be simpler and more direct.  But if you just want to create
-a site like the one you're looking at now, read on.
-
-Start by reading the [Overview page](pages/overview.html), which
-explains the basic structure of these sites. Then read
-[how to make an independent website](pages/independent_site.html). Then
-read any of the other things, such as
-[how to test your site locally](pages/local_test.html).
-
-- [Overview](pages/overview.html)
-- [Making an independent website](pages/independent_site.html)
-- [Making a personal site](pages/user_site.html)
-- [Making a site for a project](pages/project_site.html)
-- [Making a jekyll-free site](pages/nojekyll.html)
-- [Testing your site locally](pages/local_test.html)
-- [Resources](pages/resources.html)
-
-If anything here is confusing (or _wrong_!), or if I've missed
-important details, please
-[submit an issue](https://github.com/kbroman/simple_site/issues), or (even
-better) fork [the GitHub repository for this website](https://github.com/kbroman/simple_site),
-make modifications, and submit a pull request.
-
----
-
-The source for this minimal tutorial is [on github](https://github.com/kbroman/simple_site).
-
-Also see my [tutorials](https://kbroman.org/tutorials) on
-[git/github](https://kbroman.org/github_tutorial),
-[GNU make](https://kbroman.org/minimal_make),
-[knitr](https://kbroman.org/knitr_knutshell),
-[R packages](https://kbroman.org/pkg_primer),
-[data organization](https://kbroman.org/dataorg),
-and [reproducible research](https://kbroman.org/steps2rr).
