@@ -1,14 +1,13 @@
 ---
-layout: page
+layout: null
 ---
 
-👋 Hi, I'm Avash <br>
-Nice to meet you!
+# Avash Adhikari
 
-I work as an SRE at Cruise, where I am currently working on improving how we do incident response and reporting on insights wrt. reliability of systems and components that ultimately power our self-driving cars! 
+I work at NVIDIA.
 
-Before Cruise, I went to UC Berkeley for grad school (going back to academia was a tough one, specially after 4 years of working in tech!). 
+I studied at UC Berkeley.
 
-And well, before that, I worked as a Lead Software Engineer at Fidelity Investments. 
+Previously, I worked at Cruise and Fidelity Investments.
 
-If you'd like to connect, please feel free to reach me on [LinkedIn](https://www.linkedin.com/in/avashadhikari/)!
+[LinkedIn](https://www.linkedin.com/in/avashadhikari/) · [GitHub](https://github.com/avashadhikari)
